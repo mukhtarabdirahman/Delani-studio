@@ -1,0 +1,27 @@
+.landing-page{
+    background-image: url("https://bit.ly/2NxC2uK");
+    background-size: cover;
+    height:120vh;
+    text-align: center;
+    color: white;
+    padding-top: 280px;
+
+}
+.logo{
+  padding-bottom: 30px;
+}
+.mouse{
+  padding-top: 90px;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+.services{
+  background-image: url("../image/s_image.jpg");
+  height:40vh;
+  color:white;
+  padding-top: 80px;
+}
