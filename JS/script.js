@@ -13,6 +13,19 @@ $(document).ready(function(){
    });
 
 
+   $("#icon1").click(function(){
+   $("#hide1").show();
+   });
+   $("#icon1").click(function(){
+   $("#icon1").hide();
+   });
+   $("#hide1").click(function(){
+   $("#icon1").show();
+   });
+   $("#hide1").click(function(){
+   $("#hide1").hide();
+   });
+
 
 
 
