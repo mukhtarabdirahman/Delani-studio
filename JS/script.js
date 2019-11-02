@@ -26,7 +26,6 @@ $(document).ready(function(){
    $("#hide1").hide();
    });
 
-   
    $("#icon2").click(function(){
    $("#hide2").show();
    });
