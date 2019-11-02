@@ -38,6 +38,10 @@ h3{
   display:none;
   color:black;
 }
+#hide2{
+  display: none;
+  color: black;
+}
 .contact-us{
   background-image: url("../image/c_image.jpg");
   height:50vh;
