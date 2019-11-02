@@ -26,6 +26,19 @@ $(document).ready(function(){
    $("#hide1").hide();
    });
 
+   
+   $("#icon2").click(function(){
+   $("#hide2").show();
+   });
+   $("#icon2").click(function(){
+   $("#icon2").hide();
+   });
+   $("#hide2").click(function(){
+   $("#icon2").show();
+   });
+   $("#hide2").click(function(){
+   $("#hide2").hide();
+   });
 
 
 
