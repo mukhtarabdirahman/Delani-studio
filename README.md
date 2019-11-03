@@ -17,3 +17,6 @@ This project is basically mimicking another website that we were provided.
 - BOOTSTRAP
 - JAVASCRIPT
 - JQUERY
+
+## BDD
+This website when a user inputs the email he/she will get a message and also get a thank for contacting us.
