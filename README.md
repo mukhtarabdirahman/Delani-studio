@@ -2,7 +2,6 @@
 - Description
 - Technologies Used
 - BDD
-- Screenshot
 - Support & Contact
 - Author
 - Licence
@@ -21,10 +20,7 @@ This project is basically mimicking another website that we were provided.
 ## BDD
 This website when a user inputs the email he/she will get a message and also get a thank for contacting us.
 
-## Screenshot
- <img src="../image/Screenshot from 2019-11-03 17-54-07.png" width="400">
- <img scr="../image/Screenshot from 2019-11-03 17-54-07.png" width="400">
- <img scr="../image/Screenshot from 2019-11-03 17-54-11.png" width="400">
+
 
 
 ## Support & Contact
