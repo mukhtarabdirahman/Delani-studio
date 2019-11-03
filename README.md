@@ -9,3 +9,11 @@
 
 ## Description
 This project is basically mimicking another website that we were provided.
+
+## Technologies Used
+
+- HTML
+- CSS
+- BOOTSTRAP
+- JAVASCRIPT
+- JQUERY
