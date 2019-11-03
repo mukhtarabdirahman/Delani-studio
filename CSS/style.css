@@ -30,6 +30,7 @@ h3{
   text-align: center;
   font-weight: bold;
 }
+
 #hide{
   display: none;
   color: black;
@@ -42,10 +43,157 @@ h3{
   display: none;
   color: black;
 }
+/* Form */
 .contact-us{
-  background-image: url("../image/c_image.jpg");
-  height:50vh;
+  background: url("../image/c_image.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 70vh;
+  margin: 0;
+  }
+  .user-info{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  overflow: hidden;
+  }
+  #name{
+  float: left;
+  width: 48%;
+  margin: 5px;
   color: white;
-  padding: 100px;
-
-}
+  background: transparent;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  }
+  #email{
+  float: right;
+  width: 48%;
+  margin: 5px;
+  color: white;
+  background: transparent;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  }
+  .mssg-div{
+  overflow: hidden;
+  }
+  #message{
+  width: 70rem;
+  background: transparent;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  color: white;
+  }
+  ::placeholder{
+    color: white;
+    opacity: 1;
+  }
+  
+  /*
+    ##Device = Desktops
+  */
+  
+  @media (min-width: 1281px) {
+      #name{
+  width: 48%;
+  }
+  #email{
+  width: 48%;
+  }
+      #message{
+  width: 70rem;
+  }
+  }
+  
+  /*
+    ##Device = Laptops, Desktops
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    #name{
+  width: 48%;
+  }
+  #email{
+  width: 48%;
+  }
+    #message{
+  width: 65rem;
+  }
+  }
+  
+  /*
+    ##Device = Tablets, Ipads (portrait)
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+  #name{
+  width: 48%;
+  }
+  #email{
+  width: 48%;
+  }
+  #message{
+  width: 45rem;
+  }
+  }
+  
+  /*
+    ##Device = Tablets, Ipads (landscape)
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #name{
+  width: 48%;
+  }
+  #email{
+  width: 48%;
+  }
+    #message{
+  width: 45rem;
+  }
+  }
+  
+  /*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+  .message-form{
+  height: 80vh;
+  }
+    #name{
+  float: none;
+  width: 90%;
+  }
+  #email{
+  float: none;
+  width: 90%;
+  }
+    #message{
+  width: 30rem;
+  height: 30vh
+  }
+  }
+  
+  /*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+  */
+  
+  @media (max-width: 480px) {
+  .message-form{
+  height: 80vh;
+  }
+  #name{
+  float: none;
+  width: 90%;
+  }
+  #email{
+  float: none;
+  width: 90%;
+  }
+  #message{
+  width: 18rem;
+  }
+  }
+  

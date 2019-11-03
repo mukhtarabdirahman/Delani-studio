@@ -1,4 +1,5 @@
 $(document).ready(function(){
+   //Design
    $("#icon").click(function(){
    $("#hide").show();
    });
@@ -12,7 +13,7 @@ $(document).ready(function(){
    $("#hide").hide();
    });
 
-
+   //Development
    $("#icon1").click(function(){
    $("#hide1").show();
    });
@@ -25,7 +26,7 @@ $(document).ready(function(){
    $("#hide1").click(function(){
    $("#hide1").hide();
    });
-
+   //Product Management
    $("#icon2").click(function(){
    $("#hide2").show();
    });
@@ -38,12 +39,14 @@ $(document).ready(function(){
    $("#hide2").click(function(){
    $("#hide2").hide();
    });
+ 
 
+   //Portfolio
+   
 
 
 
 });
-
 
 
 
