@@ -42,13 +42,63 @@ $(document).ready(function(){
  
 
    //Portfolio
-   
+   $('#work8').hover(function(){
+      $('.overlay8').css("display","block")
+   },function(){
+      $('.overlay8').css("display","none")
+   })
 
+   $('#work7').hover(function(){
+      $('.overlay7').css("display","block")
+   },function(){
+      $('.overlay7').css("display","none")
+   })
 
+   $('#work6').hover(function(){
+      $('.overlay6').css("display","block")
+   },function(){
+      $('.overlay6').css("display","none")
+   })
+
+   $('#work5').hover(function(){
+      $('.overlay5').css("display","block")
+   },function(){
+      $('.overlay5').css("display","none")
+   })
+
+   $('#work4').hover(function(){
+      $('.overlay').css("display","block")
+   },function(){
+      $('.overlay').css("display","none")
+   })
+
+   $('#work3').hover(function(){
+      $('.overlay3').css("display","block")
+   },function(){
+      $('.overlay3').css("display","none")
+   })
+
+   $('#work2').hover(function(){
+      $('.overlay2').css("display","block")
+   },function(){
+      $('.overlay2').css("display","none")
+   })
+
+   $('#work1').hover(function(){
+      $('.overlay1').css("display","block")
+   },function(){
+      $('.overlay1').css("display","none")
+   })
 
 });
 
-
+var massage = document.getElementById("message");
+      message.addEventListener("keyup", function(event) {
+        if (event.keyCode === 13) {
+          event.preventDefault();
+          document.getElementById("btn").click();
+        }
+});
 
 
 

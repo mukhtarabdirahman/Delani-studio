@@ -43,12 +43,72 @@ h3{
   display: none;
   color: black;
 }
+/* Portfolio */
+#overlay{
+  display: none;
+  z-index: 99;
+  border: 1px solid white;
+  height: 85%;
+  color: white;
+  text-align: center;
+  font-size: calc(112% + 1vh);
+  background: rgba(0,0,0,0.7);
+  font-weight: bold;
+}
+#work8{
+  background: url(../image/work8.jpg);
+  background-size: cover;
+  height: 30vh;
+  max-width: 22%;
+}
+#work7{
+  background: url(../image/work7.jpg);
+  background-size: cover;
+  height: 30vh;
+  max-width: 22%;
+}
+#work6{
+  background: url(../image/work6.jpg);
+  background-size: cover;
+  height: 30vh;
+  max-width: 22%;
+}
+#work5{
+  background: url(../image/work5.jpg);
+  background-size: cover;
+  height: 30vh;
+  max-width: 22%;
+}
+#work4{
+  background: url(../image/work4.jpg);
+  background-size: cover;
+  height: 30vh;
+  max-width: 22%;
+}
+#work3{
+  background: url(../image/work3.jpg);
+  background-size: cover;
+  height: 30vh;
+  max-width: 22%;
+}
+#work2{
+  background: url(../image/work2.jpg);
+  background-size: cover;
+  height: 30vh;
+  max-width: 22%;
+}
+#work1{
+  background: url(../image/work1.jpg);
+  background-size: cover;
+  height: 30vh;
+  max-width: 22%;
+}
 /* Form */
 .contact-us{
   background: url("../image/c_image.jpg");
   background-size: cover;
   text-align: center;
-  height: 70vh;
+  height: 80vh;
   margin: 0;
   }
   .user-info{
@@ -75,15 +135,15 @@ h3{
   border: 0.5px solid white;
   border-radius: 5px;
   }
-  .mssg-div{
-  overflow: hidden;
-  }
   #message{
   width: 70rem;
   background: transparent;
   border: 0.5px solid white;
   border-radius: 5px;
   color: white;
+  }
+  #btn{
+    display: none;
   }
   ::placeholder{
     color: white;
