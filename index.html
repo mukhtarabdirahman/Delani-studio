@@ -16,9 +16,11 @@
           WELCOME<br/><br/>TO DELANI STUDIO
         </h1>
         <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-        <img src="image/mouse_click.png" class="mouse" />
+        <div>
+          <a href="#about" ><img src="image/mouse_click.png" class="mouse"></a>
+        </div>
       </div>
-      <div class="container">
+      <div class="container" id="about">
         <h2>ABOUT US</h2>
         <p>
           When you work with us, you are part of a team of committed
@@ -117,11 +119,11 @@
       <div class="container-fluid contact-us">
         <h3 class="form-heading pt-5 text-white">CONTACT US</h3>
         <div class="container user-info">
-          <input type="text" id="name" class="text-white" placeholder="Name...">
-          <input type="text" id="email" placeholder="Email...">
+          <input type="text" id="name" class="text-white" placeholder="Name..." required>
+          <input type="text" id="email" placeholder="Email..." required>
         </div>
         <div class="message-div">
-          <textarea name="message" id="message" cols="80" rows="10" placeholder="Your message here..."></textarea>
+          <textarea name="message" id="message" cols="80" rows="10" placeholder="Your message here..." required></textarea>
         </div>
         <button id="btn" onclick="javascript:alert('We have received your message. Thank you for reaching out to us. ')"></button>
       </div>
